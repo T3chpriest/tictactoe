@@ -41,4 +41,7 @@ class TicTacToe:
 
 
     def human_go(self):
-        self[x] = input()
+        self[input()] = self.HUMAN_X
+
+
+
